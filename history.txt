@@ -1,0 +1,2000 @@
+ls
+cd drc/
+ls
+klayout
+ls
+cd ..
+ls
+klayout
+ls
+cd tech/
+ls
+cd ..
+ls
+cd pymacros/
+ls
+cd ..
+ls
+cd drc/
+ls
+cd ..
+ls
+cd lvs/
+ls
+cd ..
+ls
+cd tech/
+ls
+pwd
+ls
+cd ../
+cd 
+clear
+ls
+cd eda/uniccass/share/pdk/sky130A/libs.tech/klayout/
+pwd
+cd
+nkdir -p eda/project/klayout
+mkdir -p eda/project/klayout
+cd eda/project/klayout/
+HOME_KLAYOUT=/home/toind/eda/uniccass/share/pdk/sky130A/libs.tech/klayout klayout -e
+cd 
+HOME_KLAYOUT=/home/toind/eda/uniccass/share/pdk/sky130A/libs.tech/klayout klayout -e
+KLAYOUT_HOME=/home/toind/eda/uniccass/share/pdk/sky130A/libs.tech/klayout klayout -e
+ls
+c
+ls
+cd eda/
+ls
+cd uniccass/
+ls
+cd share/
+ls
+cd pdk/
+ls
+cd gff
+cd gf180mcuC/
+ls
+cd libs.tech/
+ls
+cd klayout/
+ls
+cd tech/
+ls
+klayout
+sudo apt-get -y install build-essential openssl libssl-dev libssl1.0 libgl1-mesa-dev libqt5x11extras5
+ls
+clear
+KLAYOUT_HOME=/home/toind/eda/uniccass/share/pdk/sky130A/libs.tech/klayout klayout -e
+ls
+cd eda/project/
+ls
+cd klayout/
+ls
+pwd
+cd
+cd eda/uniccass/share/pdk/sky130A/libs.tech/klayout/tech/
+ls
+cp sky130A.lyp -e ../../../../../../../project/klayout/
+cd
+sudo apt install libgl1-mesa-dri
+KLAYOUT_HOME=/home/toind/eda/uniccass/share/pdk/sky130A/libs.tech/klayout klayout -e
+sudo apt-get install -y mesa-utils
+KLAYOUT_HOME=/home/toind/eda/uniccass/share/pdk/sky130A/libs.tech/klayout klayout -e
+sudo apt-get install -y libgl1-mesa-glx
+sudo apt update
+sudo apt-get install -y libgl1-mesa-glx
+KLAYOUT_HOME=/home/toind/eda/uniccass/share/pdk/sky130A/libs.tech/klayout klayout -e
+glxinfo | grep "OpenGL version"
+sudo apt update & sudo apt upgrade
+sudo add-apt-repository ppa:kisak/kisak-mesa -y
+sudo apt update 
+sudo apt update & sudo apt upgrade
+KLAYOUT_HOME=/home/toind/eda/uniccass/share/pdk/sky130A/libs.tech/klayout klayout -e
+which /usr/lib/x86_64-linux-gnu/dri/
+ls /usr/lib/x86_64-linux-gnu/dri/
+ln -s /usr/lib/x86_64-linux-gnu/dri/swrast_dri.so ./dri/
+sudo ln -s /usr/lib/x86_64-linux-gnu/dri/swrast_dri.so ./dri/
+mkdir dri
+sudo ln -s /usr/lib/x86_64-linux-gnu/dri/swrast_dri.so ./dri/
+ln -s /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28 ./libstdc++.so.6
+KLAYOUT_HOME=/home/toind/eda/uniccass/share/pdk/sky130A/libs.tech/klayout klayout -e
+KLAYOUT_HOME=/home/toind/eda/uniccass/share/pdk/sky130A/libs.tech/klayout
+klayout -e
+cd /usr/lib
+cd dri
+ls
+cd ..
+cd
+cd /usr/lib/
+mkdir dri
+sudo mkdir dri
+sudo ln -s /usr/lib/x86_64-linux-gnu/dri/swrast_dri.so ./dri/
+ls dri/
+cd 
+KLAYOUT_HOME=/home/toind/eda/uniccass/share/pdk/sky130A/libs.tech/klayout
+klayout -e
+which /home/toind/eda/uniccass/bin/../lib/libstdc++.so.6
+cd /home/toind/eda/uniccass/bin/../lib/
+ls
+cd ..
+ln -s /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28 ./libstdc++.so.6
+cd 
+klayout -e
+which /home/toind/eda/uniccass/bin/../lib/libstdc++.so.6
+vim /home/toind/eda/uniccass/bin/../lib/libstdc++.so.6
+sudo apt-get install libstdc++6
+conda install -c conda-forge gcc=12.1.0
+ls
+cd eda/project/layout/
+ls
+magic buffer.mag 
+exit
+cd eda/project/layout/
+ls
+magic buffer.mag 
+ls
+ls -l
+cd eda/
+ls
+ls -l 
+cd project/
+ls
+xschem inverter_tran.sch 
+tmux ls
+tmux
+tmux attach
+ls
+cd ..
+ls
+cd project/
+ls
+cd ..
+ls
+cd ..
+ls
+cd eda/
+ls
+cd project/
+ls
+mkdir ADC
+ls
+mkdir test_new
+ls
+cp buffer.sch buffer.sym buffer.sch inverter.sch inverter.sym inverter_tran.sch ../project/test_new/
+ls
+cd test_new/
+ls
+cd ..
+ls
+cd ADC/
+ls
+git clone git@github.com:toinguyendinh/ADC.git
+ls
+cd ..
+;s
+ls
+cd ADC/
+ls
+cd ..
+ls
+cd ADC/
+ls
+cd ..
+ls
+rm -rf ADC/
+ls
+git clone git@github.com:toinguyendinh/ADC.git
+ls
+cd ADC/
+ls
+cd circuit_model/
+ls
+cd tb/
+ls
+xschem vco.sch 
+ls
+cd ..
+ls
+cd lib/
+ls
+xschem vco.sym 
+cd ../tb/
+ls
+xschem vco.sch 
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+xschem 
+cp xschemrc ADC/circuit_model/tb/
+cd ADC/circuit_model/tb/
+ls
+xschem vco.sch 
+ls
+clear
+ls
+cd
+ls
+cd
+ls
+cd eda/
+ls
+cd project/
+ls
+cd ..
+ls
+cd ..
+ls
+xschem 
+ls
+pwd
+ls
+cd eda/
+ls
+cd project/
+ls
+rm -rf ADC/
+ls
+cd ..
+ls
+cd 
+cd p
+ls
+cd ..
+ls
+pwd
+cd
+ls
+pwd
+cd eda/
+ls
+cd ..
+ls
+cd eda/
+ls
+git clone git@github.com:toinguyendinh/ADC.git
+ls
+cd ADC/
+ls
+cd circuit_model/
+ls
+cd tb/
+ls
+xschem vco.sch 
+cd ..
+ls
+cd lib/
+ls
+xschem inverter.sch 
+ls
+cd
+ls
+cd eda/
+ls
+cd uniccass/
+ls
+cd bin/
+l
+s
+ls
+vim activate 
+ls
+cd
+ls
+cd eda/
+ls
+cd ADC/
+ls
+cd circuit_model/
+ls
+cd lib/
+ls
+cp $PDK_ROOT/%PDK/libs.tech/xschem/xschemrc .
+cd
+pwd
+ls
+mkdir work
+ls
+cd work/
+ls
+mkdir lib
+ls
+cd lib/
+ls
+cp $PDK_ROOT/$PDK/libs.tech/xschem/xschemrc .
+cd
+pwd
+cd eda/uniccass/share/pdk/sky130A/libs.tech/xschem/
+ls -l
+cd
+cp eda/uniccass/share/pdk/sky130A/libs.tech/xschem/xschemrc .
+ls
+mv xschemrc work/
+ls
+cd work/
+ls
+mv xschemrc lib/
+ls
+cd lib/
+xschem 
+ls
+cd ..
+ls
+cd ..
+ls
+cd work/
+ls
+rm -rf lib/
+ls
+cd ..
+ls
+cd eda/
+ls
+cd ADC/
+ls
+cd circuit_model/
+ls
+cd lib/
+cp $PDK_ROOT/$PDK/sky130A/libs.tech/xschem/xschemrc .
+ls
+xschem vco.sch 
+cd ..
+ls
+cd tb/
+ls
+cp $PDK_ROOT/$PDK/sky130A/libs.tech/xschem/xschemrc .
+ls
+xschem vco.sch 
+vim vco.sch 
+tmux ls
+tmux
+ls
+cd 
+cd eda/
+ls
+cd uniccass/
+ls
+cd share/
+ls
+cd pdk/
+ls
+cd sky130A/
+ls
+vim vco.sch 
+cd ../lib/
+xschem ring_osc.sch 
+cd ../tb/
+ls
+cd ..
+ls
+cd lib/
+ls
+xschem inverter.sch 
+xschem inverter.sym 
+ls
+xschem cc_inv.sch 
+xschem cc_inv.sym 
+ls
+xschem ring_osc.sch 
+xschem ring_osc.sym 
+ls
+xschem vco.sch 
+xschem vco.sym 
+xschem vco.sch 
+cd ../tb/
+vim vco_tb.sch 
+cd
+cd eda/uniccass/
+ls
+cd li
+cd lib
+ls
+ll
+ls
+q
+pwd
+cd
+ls
+cd work/
+ls
+cd
+ls
+cd eda/
+ls
+cd ADC/
+ls
+cd circuit_model/
+ls
+cd lib/
+ls
+xschem vco.sch 
+xschem cc_inv.sym 
+xschem vco.sym 
+xschem vco.sch 
+xschem vco.sym 
+l
+cd ../
+ls
+cd spice
+ls
+vi vco_tb.spice 
+xschem vco.sch 
+ls
+xschem vco.sch 
+ls
+mv vco.sch vco_tb.sch
+ls
+xschem vco_tb.sch 
+ls
+xschem vco_tb.sch 
+ls
+rm vco.spice 
+ls
+xschem vco_tb.sch 
+vi vco_tb.sch 
+vi ../lib/vco.sch 
+xschem vco_tb.sch 
+vi xschemrc 
+pwd 
+vi xschemrc 
+xschem vco_tb.sch 
+ls
+cd eda/uniccass/
+ls
+cd share/
+ls
+cd pdk/
+ls
+cd sky130A/
+ls
+cd libs.tech/
+ls
+cd ngspice/
+ls
+tmux attach
+pwd
+ls
+cd ..
+ls
+cd ..
+ls
+cd libs.ref/
+ls
+cd sky130_fd_sc_hd/
+ls
+cd spice/
+ls
+pwd
+ls
+pwd
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd libs.tech/
+ls
+tmux attach
+pwd
+ls
+cd
+cd -
+ls
+tmux ls
+tmux
+ls
+cd work/
+ls
+mkdir lib
+mkdir tb
+mkdir spice
+ls
+cd lib/
+ls
+cp $PDK_ROOT/$PDK/sky130A/libs.tech/xschem/xschemrc .
+ls
+xschem
+cd eda/
+ls
+cd uniccass/
+ls
+cd share/
+ls
+cd pdk/
+ls
+cd sky130A/
+ls
+cd libs.tech/
+ls
+cd xschem/
+ls
+pwd
+cd
+cd eda/
+ls
+cd uniccass/
+ls
+pwd
+ls
+cd share/
+ls
+cd pdk/
+ls
+cd sky130A/
+ls
+cd libs.tech/
+ls
+cd xschem/
+ls
+cd ..
+ls
+cd ngspice/
+ls
+cd ..
+ls
+cd ..
+pwd
+ls
+cd
+ls
+cd eda/
+ls
+cd ..
+;s
+ls
+pwd
+cd work/
+ls
+cd tb/
+ls
+cd ..
+ls
+cd 
+ls
+cd eda/
+ls
+cd ADC/
+ls
+cd circuit_model/
+ls
+cd tb/
+ls
+vim vco_tb.spice 
+ngspice vco_tb.spice 
+ls
+cd ..
+ls
+cd spice/
+ls
+vim vco_tb.spice 
+cd ../tb/
+ls
+clear
+ls
+vim vco_tb.spice 
+cd ../spice/
+ls
+vim vco_tb.spice 
+rm vco_tb.spice 
+ls
+cd -
+ls
+rm vco_tb.s[
+rm vco_tb.spice 
+ls
+cd
+cd -
+cd /.xschem/simulations
+cd
+cd .xschem/
+ls
+cd simulations/
+ls
+rm vco_tb.spice 
+ls
+vim vco_tb.spice 
+ngspice vco_tb.spice 
+vim vco_tb.spice 
+ngspice vco_tb.spice 
+cd
+ls
+cd eda/
+l;s
+ls
+cd project/
+ls
+cd layout/
+ls
+magic buffer.mag 
+magic inverter.mag 
+magic buffer.mag 
+cd
+ls
+cd eda/
+ls
+cd ADC/
+ls
+cd circuit_model/
+ls
+cd tb/
+ls
+xschem test_cc_inv.sch 
+ls
+vim vco_tb.sch 
+pwd
+ls
+cd
+ls
+cd 
+cd .xschem/simulations/
+ls
+vim vco_tb.out 
+gaw inverter_tran.raw 
+ls
+vim vco_tb.spice 
+cd
+ls
+cd gaw3-20220315/
+ls
+cd ..
+ls
+cd eda/
+ls
+cd project/
+ls
+ls -l 
+cd ..
+ls
+cd ..
+ls
+cd 
+cd .xschem/simulations/
+ls
+vim inverter_tran.spice 
+vim vco_tb.out 
+vim inverter_tran.spice 
+vim buffer_tran.spice 
+gaw buffer_tran.raw 
+cd
+ls
+pwd
+ls
+cd .xschem/simulations/
+ls
+cd
+ls
+cd eda/
+ls
+cd project/
+ls
+vim buffer_tran.sch 
+xschem buffer_tran.sch 
+ls
+cd
+ls
+cd eda/
+ls
+cd ADC/
+ls
+cd circuit_model/
+ls
+cd tb/
+ls
+xschem vco_tb.sch 
+ls
+cd ..
+ls
+git init
+git add tb/
+git commit -m "update vco_tb.sch"
+git pull git@github.com:toinguyendinh/ADC.git
+ls
+cd ..
+ls
+git init
+cd -
+git init
+cd ..
+ls
+git add circuit_model/
+git commit -m "update vco_tb.sch"
+git push git@github.com:toinguyendinh/ADC.git
+pwd
+ls
+cd circuit_model/
+ls
+cd tb/
+ls
+xschem vco_tb.sch 
+cd
+ls
+sudo apt install libxaw7-dev
+ls
+sudo dnf install libXaw-devel
+ls -l 
+ls
+sudo apt install libxaw7-dev
+ls
+sudo apt-get -y install libxaw7-dev
+sudo apt-get update
+sudo apt-get -y install libxaw7-dev
+sudo apt -y install libxaw7-dev
+sudo apt-get remove libxaw7-dev
+ls
+pwd
+ls
+cd
+cd eda/
+ls
+cd ADC/
+;s
+ls
+cd circuit_model/
+ls
+cd tb/
+ls
+rm vco_tb.sch 
+ls
+xschem dc_analysis.sch 
+ls
+xschem inv_1.sch 
+ls
+xschem untitled.sch 
+rm untitled.sch 
+ls
+xschem vco_tb.sch
+ls
+pwd
+xschem VCO_ADC_tb.sch 
+xschem
+xschem vco_tb.sch 
+pwd
+ls
+xschesasdsdsxdsdsadsdasdasdasdasdsadasd
+xschem vco_tb.sch 
+ls
+cd eda/
+ls
+cd project/
+ls
+xschem buffer_tran.sch 
+ls
+cd ..
+ls
+cd ..
+ls
+cd work/
+ls
+cd lib/
+ls
+xschem
+tmux
+tmux ls
+tmux
+ls
+tmux ls
+tmux attach
+tmux ls
+tmux attach
+ls
+cd
+ls
+cd gaw3-20220315/
+ls
+cd ..
+ls
+tmux ls
+sudo apt-get update
+sudo apt-get -y install libxaw7-dev
+ls
+sudo apt-get remove libxaw7-dev
+sudo apt-get -y autoremove libxaw7-dev
+sudo apt-get -y purge libxaw7-dev
+sudo apt-get -y autoremove --purge libxaw7-dev
+ls
+cd
+ls -l 
+vim .bashrd
+vim .bashrc
+ls
+matlab
+cd
+matlab 
+pwd
+cd ..
+ls
+cd ..
+ls
+pwd
+cd ..
+ls
+cd
+ls
+cd eda/
+ls
+cd ADC/
+ls
+cd circuit_model/
+ls
+cd spice/
+ls
+vim vco.spice 
+ngspice vco.spice 
+ls
+cd ..
+ls
+cd tb/
+ls
+cd 
+ls
+cd .xschem/simulations/
+ls
+ngspice vco_tb.spice 
+ls
+vim test.txt 
+df
+du -sh *
+ls
+vim vco_tb.spice 
+ngspice vco_tb.spice 
+ls
+tmux 
+ls
+cd 
+ls
+cd eda/
+ls
+cd A
+cd ADC/
+ls
+git init
+ls
+git add result_local/
+git commit -m "result"
+git push git@github.com:toinguyendinh/ADC.git
+ls
+cd ..
+ls
+git clone git@github.com:toinguyendinh/ADC.git
+ls
+cd ADC/
+ls
+git pull origin main
+ls
+git add result_local/
+git commit -m "result"
+git status
+git add .
+git commit -m "first commit"
+git push origin main
+ls
+git init
+git add result_local/
+git commit -m "first commit"
+git remote add origin git@github.com:toinguyendinh/ADC.git
+git push -u origin main
+ls
+cd ..
+ls
+cd A
+cd ADC/
+ls
+git add .
+git commit -m "Your commit message here"
+git push origin main
+ls
+git clone (base) toind@DESKTOP-SU9LPJF:~/eda/ADC$ git add .
+(base) toind@DESKTOP-SU9LPJF:~/eda/ADC$ git commit -m "Your commit message here"
+On branch main
+Your branch is up to date with 'origin/main'.
+nothing to commit, working tree clean
+(base) toind@DESKTOP-SU9LPJF:~/eda/ADC$ git push origin main
+Everything up-to-da
+ls
+git add circuit_model/
+git commit -m "new commit"
+git push
+git push git@github.com:toinguyendinh/ADC.git
+ls
+git init
+git add circuit_model/
+git commit -m "new commit"
+ls]
+ls
+git clone git@github.com:toinguyendinh/ADC.git
+cd ADC/
+ls
+git add circuit_model/
+git commit -m "new commit"
+git push git@github.com:toinguyendinh/ADC.git
+ls
+git push prigin main 
+git push origin main 
+ls
+cd ..
+ls
+rm -rf ADC/
+ls
+git init
+git add .
+git commit -m "update"
+git push origin main
+git status
+git remote add origin git@github.com:toinguyendinh/ADC.git
+git push origin master -force
+git push origin master-force
+ls
+cd ..
+ls
+exit
+cd
+ls
+cd eda/
+ls
+cd ADC/
+ls
+mkdir result_local
+ls
+git init
+git add result_local/
+git commit -m "result of local computer"
+git push git@github.com:toinguyendinh/ADC.git
+git init
+ls
+ls -l
+ls
+git add result_local/
+ls
+git commit -m "result of local computer"
+ls
+ls 
+ls
+cd ..
+ls
+git init
+cd ADC/
+ls
+got init
+git init
+git add result_local/
+git commit -m "first commit"
+git push git@github.com:toinguyendinh/ADC.git
+ls
+clear
+ls
+pwd
+ls
+cd circuit_model/
+ls
+cd tb/
+s
+ls
+cd ..
+ls
+cd lib/
+ls
+cd ..
+ls
+cd spice/
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd ADC/
+git inti
+git init
+ls
+git add circuit_model/ 
+git commit -m "update new"
+git push git@github.com:toinguyendinh/ADC.git
+git clone git@github.com:toinguyendinh/ADC.git
+ls
+git add result_local/
+git commit -m "data"
+ls
+cd ADC/
+;s
+ls
+mkdir result_local
+ls
+git add result_local/ 
+git commit -m "result"
+git remote add origin git@github.com:toinguyendinh/ADC.git
+ls
+cd ..
+ls
+rm -rf ADC/
+ls
+git add result_local/
+ls
+ls
+cd eda/
+ls
+cd ADC/
+ls
+git init
+git add circuit_model/
+git commit -m "update"
+git status
+tmux ls
+tmux attach
+ls
+cd ..
+git clone git@github.com:toinguyendinh/ADC.git 
+cd ADC/
+ls
+git add circuit_model/
+ls
+git commit -m "new commit"
+ls
+cd ..
+ls
+rm ADC/
+cd ..
+ls
+cd
+ls
+cd work/
+ls
+rm -rf lib/ spice/ tb/
+ls
+git init
+git clone git@github.com:toinguyendinh/ADC.git
+ls
+cd ADC/
+ls
+mkdir result
+git add result/
+git status
+ls
+git commit -m "result"
+git push 
+cd 
+cd ..
+ls
+cd
+ls
+cd eda/
+ls
+cd ADC/
+ls
+git add .
+git commit -m "Description of the changes"
+git status
+git config --global --list
+git config --local --list
+ls
+cd circuit_model/
+ls
+mkdir result
+ls
+cd result/
+ls
+vim result.txt
+ls
+cd ..
+ls
+cd ..
+ls
+git init
+git add circuit_model/
+git commit -m "add result"
+ls
+rm -rf result_local/
+ls
+cd circuit_model/
+ls
+cd ..
+cd
+ls
+cd eda/
+;s
+ls
+cd ADC/
+ls
+pwd
+ls
+tmux ls
+tmux attach
+ls
+cd eda/
+ls
+cd ADC/
+ls
+cd circuit_model/
+ls
+cd spice/
+ls
+cd ..
+ls
+cd tb/
+ls
+xschem vco_tb.sch 
+ping 192.168.0.111
+ls
+ssh toind_63d@192.168.0.111
+exit
+ls
+cd eda/
+ls
+cd project/
+ls
+cd spice/
+ls
+vim inverter.spice 
+ngspice -i inverter.spice -a || sh
+ngspice inverter.spice 
+ngspice -i inverter.spice -a || sh
+ls
+gtk
+gtkwave
+ls
+exit
+ls
+cd eda/
+ls
+cd project/
+ls
+vim signal_test.spice
+ngspice signal_test.spice 
+ls
+ngspice signal_test.spice 
+vim signal_test.spice
+ngspice signal_test.spice 
+vim signal_test.spice
+ngspice signal_test.spice 
+vim signal_test.spice
+ngspice signal_test.spice 
+ngspice -x signal_test.spice 
+ngspice -i signal_test.spice -a || sh
+ngspice -x signal_test.spice 
+vim signal_test.spice
+ngspice -x signal_test.spice 
+ls
+cp signal_test.spice signal_test.cit
+rm signal_test.cit 
+cp signal_test.spice signal_test.cir
+ngspice signal_test.cir 
+cd
+ls
+cd gaw3-20220315/
+ls
+mimeopen -d gaw.png 
+cd
+ls
+cd eda/project/
+ls
+ngspice signal_test.spice 
+cd
+sudo apt-get -y install libxaw7-dev
+ls
+cd
+ls
+cd
+ls
+cd eda/
+ls
+cd uniccass/
+ls
+cd sh
+cd share/
+ls
+cd pdk/
+ls
+cd sky130A/
+ls
+cd libs.ref/
+cd ../libs.tech/
+ls
+cd ngspice/
+ls
+pwd
+cd ..
+s
+cd ..
+ls
+cd libs.ref/sky130_fd_sc_hd/spice/
+ls
+pwd
+cd
+sudo apt-get -y install libxaw7-dev
+ls
+ls -a
+ls
+sudo apt-get -y install libxaw7-dev
+ls
+cd eda/project/
+ls
+ngspice signal_test.spice 
+ls
+cd
+sudo apt install xterm gedit xdg-utils libgtk-3-dev build-essential
+ls
+cd gaw3-20220315/
+./configure
+make -j5
+sudo make install
+ls
+cd
+ls
+cd eda/
+;s
+ls
+cd project/
+ls
+ngspice signal_test.spice 
+ls
+cd
+ls
+cd - 
+ls
+cd -
+ls
+pwd
+cd eda/project/
+s
+ls
+cd ..
+ls
+cd S
+cd ADC/
+ls
+vim push_folder.sh 
+cd p
+ls
+cd ..
+ls
+cd project/
+ls
+mkdir input
+mkdir sampling
+mkdir phase
+ls
+cd input/
+ls
+cd ..
+'ls
+
+
+
+ls
+cp xschemrc input/
+ls
+cd input/
+ls
+vim input_1.spice
+ls
+mkdir 1
+ls
+mkdir 3 5 10 15 18 20
+ls
+cp input_1.spice xschemrc 1
+ls
+rm input_1.spice xschemrc 1
+rm input_1.spice xschemrc
+rm input_1.spice xschemrc 
+ls
+cd 1
+ls
+vim input_1.spice 
+ls
+tmux ls
+tmux attach
+tmux 
+tmux set -g mouse on
+tmux attach
+cd ~/.tmux.conf
+vim ~/.tmux.conf
+tmux attach
+sudo echo hi
+ls
+tmux ls
+tmux attach
+top
+ls
+cd ..
+ls
+cd 1
+ls
+ll
+vim data_out_1.txt 
+ls
+pwd
+ll
+ls -a
+ll
+vim data_processing.sh
+ls
+vim data_processing.sh
+bash data_processing.sh 
+vim data_processing.sh
+bash data_processing.sh 
+ls
+vim data_input_15.txt 
+vim data_processing.sh
+tmux ls
+ls
+ll
+bash data_processing.sh 
+ll
+vim out_raw_1.txt 
+vim out_raw_2.txt 
+ls
+ll
+vim data_input_15.txt 
+vim data_processing.sh 
+bash data_processing.sh 
+vim data_input_15.txt 
+vim data_processing.py
+python data_processing.py 
+ls
+vim data_input_15_final.txt 
+vim data_input_15_final_sum.txt
+matlab
+ls
+vim input_1.spice 
+pwd
+cd ../3/
+ls
+cd ../1/
+ls
+cp data_processing.sh data_processing.py ../3/
+cd ../3/
+ls
+ll
+vim data_processing.sh 
+vim data_processing.py 
+ls
+bash data_processing.sh 
+python data_processing.py 
+vim data_input_3_final.txt 
+ls
+set -g mouse on
+top
+ls
+vim data_processing.sh 
+ls
+cd ..
+ls
+cd 5/
+ls
+vim data_out_1.txt 
+ls
+cd ..
+ls
+cd 10
+ls
+vim data_out_1.txt 
+ls
+cd ..
+ls
+cd 3
+ls
+vim input_3.spice 
+ls
+cd ..
+ls
+pwd
+cd in
+pwd
+ls
+cd 1
+ls
+vim input_1.spice 
+top
+ls
+cd ,,
+cd ..
+ls
+cd 20
+ls
+vim input_20.spice 
+ngspice input_20.spice 
+ls
+cd ..
+l
+ls
+cd 5
+ls
+vim input_5.spice 
+ngspice input_5.spice
+tmux ls
+tmux attach
+ls
+cd work/
+;s
+ls
+cd 
+ls
+cd eda/
+ls
+cd project/
+ls
+cd input/
+ls
+cd 20/
+ls
+vim data_input_20_final_sum.txt 
+cd ..
+ls
+cd data_input/
+ls
+cd ..
+ls
+cd 20/
+ls
+vim data_processing.sh 
+vim data_processing.py 
+bash data_processing.sh 
+python data_processing.py 
+cp data_input_20_final* ../data_input/
+ls
+cd ..
+cd data_input/
+ls
+git init 
+ls
+cd ..
+cd -
+ls
+cp data_input_* ../../../../work/ADC/circuit_model/tb/
+cd ../../../../work/ADC/circuit_model/tb/
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd -
+git init
+git add .
+git commit -m "add 2MHz for change input frequency"
+git push git@github.com:toinguyendinh/ADC.git
+ls
+cd ..
+ls
+cd
+ls
+cd work/
+ls
+cd .
+cd ..
+l;s
+ls
+cd eda/
+ls
+exit
+ls
+cd eda/
+ls
+cd project/
+ls
+vim signal_test.spice 
+fdkfjsd 
+sjdfdj sfsaf
+dsd 
+ls
+tmxu ls
+tmux
+tmux set -g mouse on
+tmux attach
+exit
+ls
+cd eda/
+ls
+cd uniccass/
+ls
+cd ..
+ls
+cd ..
+ls
+cd
+;s
+ls
+cd work/
+ls
+cd ADC/
+ls
+cd ..
+cd
+ls
+cd eda/
+ls
+cd project/
+ls
+xschem 
+vim xschemrc 
+ls
+pwd
+ls
+vim signal_test.spice 
+ngspice signal_test.spice 
+ls
+cd
+ls
+cd 
+ls
+cd eda/
+ls
+cd
+cd gaw3-20220315/
+ls
+mkdir bin
+./configure --prefix=./bin
+./configure --help
+gaw
+ls
+cd
+ls
+cd eda/
+ls
+cd project/
+ls
+cd
+ls
+pwd
+cd
+ls
+pwd
+ls
+cd eda/
+ls
+cd project/
+ls
+cd ..
+cd
+ls
+cd work/
+ls
+cd ADC/
+ls
+cd circuit_model/
+ls
+cd ..
+ls
+cd circuit_model/
+ls
+cd tb/
+ls
+cd ..
+cd
+cd 
+ls
+mkdir
+ls
+mkdir test
+ls
+tree test
+ls
+tree test/
+cd test/
+ls
+mv input_1.spice input_15.spice
+cd ..
+tree test
+ls
+cd test
+ls
+vim input_1
+vim input_1.spice 
+vim input_3.spice 
+vim input_5.spice 
+vim input_10.spice 
+vim input_15.spice 
+vim input_18.spice 
+vim input_20.spice 
+ls
+cd ..
+ls
+cd test/
+ls
+git init
+git add .
+git commit -m "tunning input frequency"
+git branch -M main
+git remote add origin git@github.com:toinguyendinh/test.git
+git push -u origin main
+ls
+cd ..
+ls
+pwd
+ls
+cd eda/
+ls
+cd project/
+ls
+cd input/
+ls
+cd data_input/
+ls
+cd ..
+ls
+cd 1
+ls
+xs
+cd
+ls
+cd -
+ls
+cp data_processing.* $HOME/test
+cd
+cd test/
+ls
+cd ..
+ls
+cd test/
+ls
+git add .
+git commit -m "add process data"
+git push git@github.com:toinguyendinh/test.git
+exi
+exit
+vim input_1.spice 
+ls
+cp input_1.spice $HOME/test
+ls
+cd ..
+ls
+cd 3/
+ls
+cp input_3.spice $HOME/test
+cd ..
+ls
+cp 5/input_5.spice $HOME/test
+cp 10/input_10.spice $HOME/test
+cp 15/input_15.spice $HOME/test
+cd 15
+ls
+cp 15/input_1.spice $HOME/test
+cd ..
+cp 15/input_1.spice $HOME/test
+cp 18/input_18.spice $HOME/test
+cp 20/input_20.spice $HOME/test
+exit
+cd eda/
+ls
+cd project/
+ls
+cd 
+ls
+cd eda/
+ls
+cd project/
+ls
+cd phase/
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd work/
+ls
+cd ADC/
+ls
+cd circuit_model/
+ls
+cd tb/
+ls
+clear
+cd ..
+ls
+tree
+sudo snap install tree
+tree
+ls
+tree tb/
+ls
+tree lib/
+ls
+cd tb/
+ls
+vim show_all_11.spice 
+ls
+cd ..
+ls
+cd ..
+ls
+cd 
+ls
+cd eda/
+l;s
+ls
+cd w
+cd project/
+ls
+cd input/
+ls
+cd 1
+ls
+cd
+ls
+xs eda/
+ls
+cd eda/
+ls
+cd project/
+ls
+cd input/
+ls
+cd 1
+ls
+tmux ls
+tmux 
+tmux ls
+exit
+ls
+ls -a
+vim .bashrc 
+ls
+ls -a
+vim .viminfo 
+ls
+cd eda/
+ls
+cd project/
+l;s
+ls
+ngspice signal_test.spice 
+ls
+cd
+ls
+ls -a
+vi 
+ls
+vi 
+ls
+vi
+ls
+ls
+tmux 
+ls
+cd
+cd work/
+ls
+cd ..
+ls
+mkdir verilog_hdlbits
+ls
+cd verilog_hdlbits/
+ls
+vim README.txt
+ks
+ls
+cd verilog_hdlbits/
+ls
+vim README.txt 
+cd
+vim .vimrc
+ls
+ls -a
+vi
+exit
+ls
+ls -a
+vim .vim
+ls
+ls -a
+vim ~/.vimrc
+ls
+ls -a
+vim .vimrc 
+ls
+vi ~/.vimrc
+cd verilog_hdlbits/
+ls
+vim README.txt 
+ls
+vim README.txt 
+git init
+git add README.txt 
+git commit -, "first commit"
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:toinguyendinh/verilog_hdlbits.git
+git push -u origin main
+ll
+cd
+ls
+ls -a
+vim .vimrc 
+ll
+vim ~/.tmux.conf
+:q
+sd
+ls
+ll
+ls
+ll
+q
+ll
+ll
+ls
+tmux 
+ll
+tmux 
+exit
+ls
+cd
+ls
+cd eda/
+;s
+ls
+cd project/
+;s
+ls
+vim signal_test.
+vim signal_test.spice 
+ngspice signal_test.
+ngspice signal_test.spice 
+ls
+ngspice signal_test.spice 
+ngspice -i signal_test.spice -a||sh
+ngspice -i signal_test.spice -a || sh
+ls
+cd
+l
+ls
+sudo apt-get install xorg
+ls
+sudo apt-get install libx11-dev
+ls
+cd eda/
+ls
+cd uniccass/
+ls
+cd
+ls
+mkdir download
+cd download/
+ls
+git clone git clone https://git.code.sf.net/p/ngspice/ngspice ngspice-ngspice
+git clone https://git.code.sf.net/p/ngspice/ngspice ngspice-ngspice
+ls
+cd ngspice-ngspice/
+ls
+sudo apt install bison flex Xaw Xmu
+sudo apt install bison flex 
+sudo apt install X11
+sudo apt install libX11-6
+sudo apt install libx11-dev 
+sudo apt install libx11-6
+sudo apt install autoconf automake libtool
+sudo apt install tcl tk blt
+sudo apt install fftw-3
+sudo apt install fftw2 
+ls
+cd 
+cd -
+ls
+cd ..
+ls
+cd ngspice-ngspice/
+ls
+./compile_linux.sh
+ls
+./autogen.sh
+ls
+./configure --enable-xspice --enable-cider CFLAGS="-m64 -02" LDFLAGS="-m64 -s"
+vim config.log
+./configure --enable-xspice --enable-cider
+ls
+./configure CFLAGS="-m64 -O2" LDFLAGS="-m64 -s"
+ls
+make clean
+make
+sl
+ls
+./configure --enable-xspice --enable-cider -enable-xspice --with-readline=yes --enable-cider --enable-openmp --enable-adms --with-tcl=tcldir –-prefix=~/tool/ngspice/41/ 
+./configure --enable-xspice --enable-cider -enable-xspice --with-readline=yes --enable-cider --enable-openmp --enable-adms --with-tcl=tcldir -prefix=~/tool/ngspice/41/ 
+./configure --enable-xspice --enable-cider -enable-xspice --with-readline=yes --enable-cider --enable-openmp --enable-adms --with-tcl=tcldir -prefix=/home/toind/tool/ngspice/41/ 
+./configure --enable-xspice --enable-cider -enable-xspice --with-readline=yes --enable-cider --enable-openmp --enable-adms -prefix=/home/toind/tool/ngspice/41/ 
+./configure --enable-xspice --enable-cider -enable-xspice --with-readline=yes --enable-cider --enable-openmp -prefix=/home/toind/tool/ngspice/41/ 
+sudo apt install readline-devel
+sudo apt install libreadline-dev 
+ls
+./configure --enable-xspice --enable-cider -enable-xspice --with-readline=yes --enable-cider --enable-openmp -prefix=/home/toind/tool/ngspice/41/ 
+make clean
+make
+ls
+sudo make install
+ls
+vim compile
+ls
+cd
+ls
+ls -a
+vim .bashrc 
+ls
+cd download/
+ls
+cd ngspice-ngspice/
+ls
+pwd
+cd ..
+;s
+ls
+cd ..
+ls
+cd tool/
+ls
+cd ngspice/
+ls
+cd 41/
+ls
+cd bin/
+ls
+cd ..
+ls
+cd share/
+ls
+cd ngspice/
+ls
+cd scripts/
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd lib/
+ls
+cd ngspice/
+ls
+cd ..
+ls
+cd ..
+ls
+cd bin/
+ls
+vim ngspice 
+ls
+cd 
+cd -
+ls
+tree
+ls
+pwd
+cd ..
+ls
+cd ..
+ls
+cd 41`
+ls
+cd 41/
+ls
+cd bin/
+;s
+ls
+cd //
+cd -
+;s
+ls
+cd ..
+ls
+pwd
+cd bin/
+ls
+ngspice 
+ls
+cp ngspice /$HOME/eda/projecy
+cp ngspice /$HOME/eda/project
+pwd
+ls
+ngspice 
+ls
+pwd
+ls
+cd ..
+ls
